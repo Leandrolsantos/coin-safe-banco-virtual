@@ -111,8 +111,8 @@ img {
 
     #hamburger {
         display: block;
-        border-top: 2.5px solid black;
-        width: 20px;
+        border-top: 0.2rem solid rgb(0, 0, 0);
+        width: 21px;
     }
 
     #hamburger::after,  #hamburger::before {
@@ -132,11 +132,11 @@ img {
     }
 
     #nav.active #hamburger::before {
-        transform: rotate(0.5deg);
+        transform: rotate(90deg);
     }
 
     #nav.active #hamburger::after {
-        transform: rotate(-0.5deg);
-        top: -5px; 
+        transform: rotate(-90deg);
+        top: -9px; 
     }
 }
