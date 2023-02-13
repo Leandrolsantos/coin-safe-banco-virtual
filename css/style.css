@@ -29,7 +29,7 @@ a:hover {
 }
 
 img {
-    width: 100%
+    width: 100% auto;
 }
 
 #header {
@@ -68,6 +68,11 @@ img {
     -webkit-text-stroke-color: rgb(0, 0, 0);
 }
 
+main {
+    display: flex;
+    align-content: center;
+}
+
 #home{
     align-items: center;
     justify-content: space-between;
@@ -76,6 +81,8 @@ img {
 
 #home-text{
     max-width: 37rem;
+    font-size: clamp(1em, 1em + 1vw, 1.5em);
+    text-align: center;
 }
 
 #home-text #text-h4{
@@ -160,6 +167,40 @@ img {
     #nav.active #hamburger::after {
         transform: rotate(-90deg);
         top: -9px; 
+    }
+
+    img {
+        width: 70vw;
+        padding: 0px auto;
+        
+    }
+        
+    #home{
+        align-items: center;
+        justify-content: space-between;
+        padding: 0px 10%;
+    }
+    
+    #home-text{
+        max-width: 37rem;
+        font-size: clamp(1em, 1em + 1vw, 1.5em);
+        text-align: center;
+    }
+    
+    #home-text #text-h4{
+        font-size: 1.8rem;
+        color: black;
+        margin-bottom: 1rem;
+    }
+    
+    #home-text #text-h1{
+        font-size: 3rem;
+        margin-bottom: 1rem;
+        line-height: 4rem;
+    }
+    
+    #home-text p{
+        margin-bottom: 4rem;
     }
 
 }
