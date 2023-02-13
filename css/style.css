@@ -29,7 +29,7 @@ a:hover {
 }
 
 img {
-    width: 100% auto;
+    width: 100%;
 }
 
 #header {
@@ -71,6 +71,7 @@ img {
 main {
     display: flex;
     align-content: center;
+    font-family: 'Righteous', cursive;
 }
 
 #home{
@@ -89,16 +90,25 @@ main {
     font-size: 1.8rem;
     color: var(--red);
     margin-bottom: 1rem;
+    color: rgb(233, 233, 233);
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: rgb(0, 0, 0);
 }
 
 #home-text #text-h1{
     font-size: 4rem;
     margin-bottom: 1rem;
     line-height: 4rem;
+    color: rgb(247, 184, 10);
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: rgb(0, 0, 0);
 }
 
 #home-text p{
     margin-bottom: 4rem;
+    color: rgb(255, 255, 255); 
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: rgb(0, 0, 0);
 }
 
 @media (max-width: 600px) {
