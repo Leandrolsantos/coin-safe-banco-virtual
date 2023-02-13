@@ -75,20 +75,24 @@ main {
 }
 
 #home{
+    display: inline-block;
+    position: relative;
     align-items: center;
     justify-content: space-between;
     padding: 0px 10%;
+    
 }
 
 #home-text{
     max-width: 37rem;
     font-size: clamp(1em, 1em + 1vw, 1.5em);
-    text-align: center;
+    text-align:end;
 }
 
 #home-text #text-h4{
     font-size: 1.8rem;
-    color: var(--red);
+    max-width: 37rem;
+    color: Black;
     margin-bottom: 1rem;
     color: rgb(233, 233, 233);
     -webkit-text-stroke-width: 1px;
@@ -97,6 +101,7 @@ main {
 
 #home-text #text-h1{
     font-size: 4rem;
+    max-width: 37rem;
     margin-bottom: 1rem;
     line-height: 4rem;
     color: rgb(247, 184, 10);
@@ -201,6 +206,9 @@ main {
         font-size: 1.8rem;
         color: black;
         margin-bottom: 1rem;
+        color: rgb(233, 233, 233);
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: rgb(0, 0, 0);
     }
     
     #home-text #text-h1{
