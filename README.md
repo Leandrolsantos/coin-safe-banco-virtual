@@ -5,7 +5,7 @@
 
 ![](./img/imagem1.png)
 
-![](./img/Coinsafe-gif.gif)
+![](./img/coinsafe.gif)
 
 Deploy do projeto: 
 
