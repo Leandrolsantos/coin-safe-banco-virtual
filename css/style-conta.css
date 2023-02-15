@@ -1,4 +1,3 @@
-
 body, ul {
     margin: 0px;
     padding: 0px;
@@ -112,13 +111,69 @@ main {
     -webkit-text-stroke-color: rgb(0, 0, 0);
 }
 
-#home-text p{
-    margin-bottom: 4rem;
-    text-align: justify;
-    color: rgb(255, 255, 255); 
+.login {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 2px 4px 2px rgba(0, 0, 0, 0.919);
+    margin: 100px auto;
+    max-width: 400px;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: rgb(247, 184, 10);
     -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: rgb(0, 0, 0);
-}
+  }
+  
+  form {
+    display: inline-block;
+    text-align: left;
+  }
+  
+  label {
+    display: block;
+    font-size: 18px;
+    margin-bottom: 5px;
+    color: rgb(247, 184, 10);
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: rgb(0, 0, 0);
+  }
+  
+  input[type="text"], input[type="password"] {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    display: block;
+    font-size: 16px;
+    margin-bottom: 10px;
+    padding: 5px;
+    width: 100%;
+    color: rgb(247, 184, 10);
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: rgb(0, 0, 0);
+  }
+  
+  input[type="submit"] {
+    background-color: #25a914;
+    border: 0;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 16px;
+    padding: 10px;
+    width: 100%;
+    color: rgb(247, 184, 10);
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: rgb(0, 0, 0);
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #0055a5;
+  }
 
 @media (max-width: 600px) {
     #btn-mobile {

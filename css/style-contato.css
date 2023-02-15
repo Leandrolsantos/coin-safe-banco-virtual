@@ -1,4 +1,3 @@
-
 body, ul {
     margin: 0px;
     padding: 0px;
@@ -25,7 +24,9 @@ a:hover {
 }
 
 img {
-    width: 100%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
 }
 
 #header {
@@ -91,7 +92,7 @@ main {
 }
 
 #home-text #text-h4{
-    font-size: 1.8rem;
+    font-size: 1.4rem;
     max-width: 37rem;
     text-align: center;
     color: Black;
@@ -102,7 +103,7 @@ main {
 }
 
 #home-text #text-h1{
-    font-size: 4rem;
+    font-size: 3rem;
     text-align: center;
     max-width: 37rem;
     margin-bottom: 4rem;
@@ -114,7 +115,7 @@ main {
 
 #home-text p{
     margin-bottom: 4rem;
-    text-align: justify;
+    text-align: center;
     color: rgb(255, 255, 255); 
     -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: rgb(0, 0, 0);
