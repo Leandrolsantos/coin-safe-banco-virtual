@@ -1,14 +1,13 @@
-# Coinsafe Banco Virtual (EM CONSTRUÇÃO)
+# Coinsafe - Banco Virtual 
 
-![](./
+<img src="http://img.shields.io/static/v1?label=STATUS&message=CONCLUIDO&color=GREEN&style=for-the-badge"/>
+</p>
 
-![](./
+![](./img/imagem1.png)
+
+![](./img/Coinsafe-gif.gif)
 
 Deploy do projeto: 
-
-(Botão)
-
-![](./)
 
 ### Sobre
 
