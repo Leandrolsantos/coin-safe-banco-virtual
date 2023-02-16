@@ -7,7 +7,7 @@
 
 ![](./img/coinsafe.gif)
 
-Deploy do projeto: 
+Deploy do projeto: https://coiinsafe.netlify.app
 
 ### Sobre
 É um site de banco virtual o qual inclui, além de conta para realização de pagamentos, também dispõe de especialistas da área de investimentos no mercado de ações, assim como informações e matérias relacionadas.
